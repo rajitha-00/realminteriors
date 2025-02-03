@@ -29,7 +29,7 @@ export default function Home() {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-3xl md:text-6xl font-semibold">
+                <h2 className="font-serif text-3xl md:text-6xl font-medium">
                   Any Project, <br />
                   Big or Small.
                 </h2>
@@ -79,7 +79,7 @@ export default function Home() {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-3xl md:text-6xl font-semibold">
+                <h2 className="font-serif text-3xl md:text-6xl font-medium">
                   Crafted Spaces,
                   <br /> Inspired Stories
                 </h2>
@@ -106,7 +106,7 @@ export default function Home() {
                       width={500}
                       height={600}
                     />
-                    <h2 className="text-xl text-gray-800 font-semibold mt-5">
+                    <h2 className="font-serif text-xl text-gray-800 font-semibold mt-5">
                       Recreational
                     </h2>
                     <p className="text-lg text-gray-800 font-medium mt-2">
@@ -128,7 +128,7 @@ export default function Home() {
                       width={500}
                       height={600}
                     />
-                    <h2 className="text-xl text-gray-800 font-semibold mt-5">
+                    <h2 className="font-serif text-xl text-gray-800 font-semibold mt-5">
                       Residential
                     </h2>
                     <p className="text-lg text-gray-800 font-medium mt-2">
@@ -149,7 +149,7 @@ export default function Home() {
                       width={500}
                       height={600}
                     />
-                    <h2 className="text-xl text-gray-800 font-semibold mt-5">
+                    <h2 className="font-serif text-xl text-gray-800 font-semibold mt-5">
                       Commercial
                     </h2>
                     <p className="text-lg text-gray-800 font-medium mt-2">
@@ -167,7 +167,7 @@ export default function Home() {
         <section className="flex items-center justify-center mt-10 md:mt-20 p-5 md:p-10">
           <div className="flex flex-col gap-6 items-center">
             <motion.h2
-              className="text-3xl text-gray-800 md:text-6xl font-semibold"
+              className="text-3xl text-gray-800 md:text-6xl font-medium font-serif"
               initial={{ opacity: 0, y: -50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -251,7 +251,7 @@ export default function Home() {
           <div className="text-center text-white space-y-8 px-6 md:px-12">
             {/* Heading with animation */}
             <motion.h2
-              className="text-4xl md:text-6xl font-semibold tracking-tight uppercase shadow-lg mb-12"
+              className="text-4xl md:text-6xl font-medium font-serif tracking-tight uppercase shadow-lg mb-12"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}

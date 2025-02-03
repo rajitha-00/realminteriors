@@ -71,7 +71,7 @@ export const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
         >
-          <h1 className="text-5xl md:text-7xl font-semibold text-white">
+          <h1 className="text-5xl md:text-7xl font-medium font-serif text-white">
             Transforming Spaces,
             <br /> Defining Luxury
           </h1>
